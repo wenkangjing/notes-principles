@@ -1,5 +1,17 @@
 ## SOLID
+
 [wikipedia](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
+
+S.O.L.I.D. principles
+
+- S – Single Responsibility Principle
+- O – Open-Closed Principle
+- L – Liskov Substitution Principle
+- I – Interface Segregation Principle
+- D – Dependency Inversion Principle
+
+Ref
+- https://www.youtube.com/watch?v=XzdhzyAukMM
 
 ### Single Responsibility Principle
 A class should have one and only one reason to change, meaning that a class should have only one job.
@@ -269,7 +281,9 @@ const $ = new DOMTraverser({
 });
 ```
 
-### Dependency Inversion Principle
+### Dependency Inversion Principle (依赖注入或倒置原则)
+
+
 Always depends on interfaces not implementation, 模块间要通过抽象接口隔离开，而不是通过具体的类强耦合起来
 - A. High-level modules should not depend on low-level modules. Both should depend on abstractions.
 - B. Abstractions should not depend on details. Details should depend on abstractions.
